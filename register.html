@@ -20,11 +20,14 @@ display:flex !important;
 margin-top:150px !important;
 margin-left:484px !important;
 padding:47px !important; 
-height:606px !important;
+height:814px !important;
 width:382px !important;
 background-color:gold !important;
 border: double solid black !important;
 justify-content:center !important; 
+}
+  textarea{
+width:260px !important;
 }
 </style>
 </head>
@@ -43,6 +46,10 @@ User name: <sup>*</sup><br/> <input type="text" placeholder="alphanumeric" name=
 New Password: <sup>*</sup> <input type="password" placeholder="min:8-capital/small/special/number" name="pass" minlength="8" size="30px" required/> <br/> <br/>
 Re-type Password: <sup>*</sup> <input type="password" placeholder="retype the same" minlength="8" name="repass"  size="30px" required/> <br/> <br/>
 
+  Why do you want to join as a member? <sup> * </sup> <textarea name="opinion" required> </textarea> <br/> 
+<p style="color:blue;"> this will be peer reviewed and accepted, based on the acceptance % your form will be taken into consideration</p> <br/>
+  
+  <button> save </button>
 
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
   Register
@@ -60,7 +67,7 @@ Re-type Password: <sup>*</sup> <input type="password" placeholder="retype the sa
   </div>
 </div>
 
-
+  <button> home </button>
 </form>
 </div>
 </body>
